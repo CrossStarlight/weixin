@@ -4,6 +4,7 @@
 include './wxModel.php';
 $model = new wxModel();
 echo $model->getAccessToken();
+echo "OK";
 
 die;
 $postStr = <<<EOT
